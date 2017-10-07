@@ -681,6 +681,7 @@ public class CircleMenu extends View {
         openMenuIcon = convertDrawable(openMenuRes);
         closeMenuIcon = convertDrawable(closeMenuRes);
         this.mainMenuColor = mainMenuColor;
+        resetMainDrawableBounds();
         return this;
     }
 
@@ -696,6 +697,7 @@ public class CircleMenu extends View {
         openMenuIcon = convertBitmap(openMenuBitmap);
         closeMenuIcon = convertBitmap(closeMenuBitmap);
         this.mainMenuColor = mainMenuColor;
+        resetMainDrawableBounds();
         return this;
     }
 
@@ -711,6 +713,7 @@ public class CircleMenu extends View {
         openMenuIcon = openMenuDrawable;
         closeMenuIcon = closeMenuDrawable;
         this.mainMenuColor = mainMenuColor;
+        resetMainDrawableBounds();
         return this;
     }
 
